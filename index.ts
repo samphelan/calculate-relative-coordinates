@@ -1,12 +1,12 @@
-function toRadians(deg) {
+function toRadians(deg: number) {
   return deg * (Math.PI / 180);
 }
 
-function toDegrees(rad) {
+function toDegrees(rad: number) {
   return rad * (180 / Math.PI);
 }
 
-function calculateNewCoordinates(lat1, lon1, distance, bearing) {
+function calculateNewCoordinates(lat1: number, lon1: number, distance: number, bearing: number) {
   const R = 6371000; // Earth's radius in meters
   const δ = distance / R; // Angular distance
   const θ = toRadians(bearing); // Convert bearing to radians

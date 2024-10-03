@@ -2,9 +2,13 @@
   "name": "calculate-relative-coordinates",
   "version": "0.0.1",
   "description": "Calculate a new point given an original point, a distance, and a bearing",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/samphelan/calculate-relative-coordinates/issues"
   },
-  "homepage": "https://github.com/samphelan/calculate-relative-coordinates#readme"
+  "homepage": "https://github.com/samphelan/calculate-relative-coordinates#readme",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
 }
