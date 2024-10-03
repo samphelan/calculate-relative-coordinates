@@ -1,6 +1,6 @@
 {
   "name": "calculate-relative-coordinates",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Calculate a new point given an original point, a distance, and a bearing",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
