@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Calculate a new point given an original point, a distance, and a bearing",
   "main": "dist/index.js",
+  "private": false,
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "pnpm run lint && pnpm run build && changeset publish"
   },
   "repository": {
     "type": "git",
