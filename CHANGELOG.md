@@ -1,5 +1,11 @@
 # calculate-relative-coordinates
 
+## 1.0.1
+
+### Patch Changes
+
+- a203ca0: added release script
+
 ## 1.0.0
 
 ### Major Changes
