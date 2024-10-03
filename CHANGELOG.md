@@ -1,5 +1,11 @@
 # calculate-relative-coordinates
 
+## 1.0.0
+
+### Major Changes
+
+- ed3e904: Publishing to npm
+
 ## 0.1.0
 
 ### Minor Changes
