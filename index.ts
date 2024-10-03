@@ -6,7 +6,7 @@ function toDegrees(rad: number) {
   return rad * (180 / Math.PI);
 }
 
-function calculateNewCoordinates(lat1: number, lon1: number, distance: number, bearing: number) {
+export function calculateNewCoordinates(lat1: number, lon1: number, distance: number, bearing: number) {
   const R = 6371000; // Earth's radius in meters
   const δ = distance / R; // Angular distance
   const θ = toRadians(bearing); // Convert bearing to radians
@@ -34,5 +34,3 @@ function calculateNewCoordinates(lat1: number, lon1: number, distance: number, b
     longitude: toDegrees(lon2),
   };
 }
-
-module.exports = calculateNewCoordinates;
