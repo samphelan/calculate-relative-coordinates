@@ -1,0 +1,22 @@
+{
+  "name": "calculate-relative-coordinates",
+  "version": "0.0.1",
+  "description": "Calculate a new point given an original point, a distance, and a bearing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samphelan/calculate-relative-coordinates.git"
+  },
+  "keywords": [
+    "geocoordinates"
+  ],
+  "author": "Sam Phelan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samphelan/calculate-relative-coordinates/issues"
+  },
+  "homepage": "https://github.com/samphelan/calculate-relative-coordinates#readme"
+}
